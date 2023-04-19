@@ -1,0 +1,68 @@
+body {
+  background-color: gray;
+  width: 100vw;
+  height: 100vh;
+  padding: 10% 25%;
+}
+
+.container {
+  width: 460px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+.container #qus {
+  color: #000;
+}
+@keyframes example {
+  from {
+    color: red;
+  }
+  to {
+    color: #000;
+  }
+}
+.container #qus.color {
+  animation-name: example;
+  animation-duration: 2s;
+}
+.container .title {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  position: relative;
+}
+.container .title::before {
+  content: "";
+  width: 10px;
+  height: 3px;
+  border-top: 3px solid #000;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+.container input {
+  width: 35%;
+  height: 30px;
+  border-radius: 4px;
+}
+.container button {
+  width: 15%;
+  height: 35px;
+  background-color: gray;
+  color: white;
+  border-radius: 3px;
+  border: 0;
+  margin-bottom: 40px;
+}
+.container button:hover {
+  background-color: #ffdf86;
+  color: #000;
+}/*# sourceMappingURL=style.css.map */
