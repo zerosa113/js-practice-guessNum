@@ -106,3 +106,11 @@ console.log("filterArr1: ");
 console.log(filterArr1);
 console.log("mapArr1: ");
 console.log(mapArr1);
+
+
+//物件 
+const obj = {
+    name: "john",
+    age: 20,
+    email: "123@mail.com"
+};//map key:value
